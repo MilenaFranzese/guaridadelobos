@@ -11,7 +11,7 @@ header{
     display: flex;
     justify-content: space-between;
     min-height: 90px;
-    background-color: rgb(139, 201, 150);
+    background-color: rgb(142, 195, 176);
     align-items: center;
     padding: 10px;
     width: 100%;
@@ -150,16 +150,17 @@ h4{
 
 .video2{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   position: absolute;
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  object-fit: contain;
+  /* object-fit: contain; */
   object-position: center;
-  overflow: hidden;
-  object-fit: contain;
+  /* overflow: hidden; */
+  justify-content: center;
+  
 }
 
 
@@ -176,6 +177,7 @@ h4{
     height: 100%;
     display: flex;
     flex-direction: column;
+    background-color: rgb(158, 213, 197);
 }
 
 .contenedor-botones{
@@ -195,7 +197,7 @@ h4{
 	border-radius: 8px;
 	color: black;
 	background-size: 300%;
-	background-image: linear-gradient(#FF7832, #FF323E);
+	background-image: radial-gradient(circle at 19.53% 13.69%, #ffd872 0, #ffcc6a 12.5%, #ffbd5e 25%, #fdaa4e 37.5%, #f2923c 50%, #e67a2b 62.5%, #de6522 75%, #d95220 87.5%, #d74323 100%);
     text-decoration: none;
     text-transform: uppercase;
     text-shadow: gray;
@@ -274,10 +276,6 @@ h5{
     
 }
 
-/* .scroll{
-    height: 1200px;
-} */
-
 .sedes{
     text-align: center;
 }
@@ -327,8 +325,16 @@ li{
 
 }
 
+/* .medio{
+    background-color: rgb(158, 213, 197);
+}
+
+.infoadd{
+    background-color: rgb(188, 234, 213);
+} */
+
 body{
-    background-image: radial-gradient(circle at 50% -20.71%, #f2ff7c 0, #deff80 8.33%, #c8fe84 16.67%, #b2f888 25%, #9bef8c 33.33%, #84e58f 41.67%, #6cd890 50%, #55cb91 58.33%, #3fc091 66.67%, #26b693 75%, #00ad94 83.33%, #00a696 91.67%, #00a099 100%);
+    background-color: rgb(188, 234, 213);
 }
 
 
