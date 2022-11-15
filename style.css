@@ -1,0 +1,338 @@
+@import url('http://fonts.cdnfonts.com/css/gang-wolfik-craze');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 90px;
+    background-color: rgb(139, 201, 150);
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+main{
+    font-family: 'Nunito', sans-serif;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+.comienzo{
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    height: 90px;
+    margin-left: 15px;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:745px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contenedor-botones{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 890px){
+    .flex-container{
+        display: flex;
+        min-width: 300px;
+    }
+}
+    
+
+
+.fondo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.fondo video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+    object-position: center;
+    z-index: -1;
+}
+nav a{
+    font-weight: 600;
+    margin-right: 15px;
+    padding-right: 15px;
+
+}
+
+nav a:hover{
+    color: gray;
+}
+
+
+.bienvenido{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gang Wolfik Craze', sans-serif;
+   background-attachment: fixed;
+   vertical-align: middle;
+}
+
+h1{
+    font-size: 10vw;
+    padding: 100px;
+    opacity: 75%;
+}
+
+span{
+    color: rgb(68, 68, 71);
+}
+
+h4{
+    display: flex;
+    text-align: center;
+}
+
+.nosotros{
+    height: 100%;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+.fondo2{
+    height: 100vh;
+}
+
+.video2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.4;
+    mix-blend-mode: overlay;
+}
+
+.contenedor{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.but{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	margin: 100px;
+	width: 300px;
+	border-radius: 8px;
+	color: black;
+	background-size: 300%;
+	background-image: linear-gradient(#FF7832, #FF323E);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: gray;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgb(0, 0, 0);
+}
+
+.nosotros{
+    border: 1px solid;
+    padding: 20px;
+    background: none;
+}
+
+
+.flex-container{
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.caja{
+    display: flex;
+    height: 260px;
+    width: 260px;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.caja2{
+    display: flex;
+    height: 260px;
+    width: 260px;
+    background-color: whitesmoke;
+    margin: 5px;
+   flex-direction: column;
+}
+
+h2{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    /* border: 0.5px solid black; */
+    background-color: whitesmoke;
+    border-radius: 3px 3px 3px 20px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h5{
+    padding: 20px;
+    font-size: medium;
+}
+
+
+
+.actividades{
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    padding-left: 40px;
+    
+}
+
+/* .scroll{
+    height: 1200px;
+} */
+
+.sedes{
+    text-align: center;
+}
+
+footer{
+    display:flex ;
+    position: relative;
+
+}
+.absolute{
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    z-index: -1;
+
+}
+
+h4{
+    font-size: 20px;
+}
+
+.red{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: flex-end;
+    width: 90%;
+    bottom: 40px;
+}
+
+.redes{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.boton{
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.logo-redes{
+    display: flex;
+
+}
+
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #f2ff7c 0, #deff80 8.33%, #c8fe84 16.67%, #b2f888 25%, #9bef8c 33.33%, #84e58f 41.67%, #6cd890 50%, #55cb91 58.33%, #3fc091 66.67%, #26b693 75%, #00ad94 83.33%, #00a696 91.67%, #00a099 100%);
+}
+
+
+
+
+
+
