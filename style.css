@@ -158,11 +158,9 @@ h4{
   z-index: -1;
   /* object-fit: contain; */
   object-position: center;
-  /* overflow: hidden; */
+  overflow: hidden;
   justify-content: center;
-  
 }
-
 
 .capa{
     position: absolute;
@@ -225,6 +223,7 @@ h4{
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 6px black;
 }
 
 
@@ -234,7 +233,7 @@ h4{
     width: 260px;
     margin: 5px;
     flex-direction: column;
-}
+    padding: 10px;}
 
 .caja2{
     display: flex;
@@ -243,6 +242,9 @@ h4{
     background-color: whitesmoke;
     margin: 5px;
    flex-direction: column;
+   border-radius: 3px 20px 3px 20px;
+   box-shadow: 2px 2px 10px 2px black;
+   padding: 10px;
 }
 
 h2{
@@ -281,7 +283,7 @@ h5{
 }
 
 footer{
-    display:flex ;
+    /* display:flex ; */
     position: relative;
 
 }
@@ -297,6 +299,7 @@ h4{
     font-size: 20px;
 }
 
+
 .red{
     display: flex;
     flex-direction: row;
@@ -309,7 +312,7 @@ h4{
 .redes{
     width: 30px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .boton{
@@ -325,19 +328,62 @@ li{
 
 }
 
-/* .medio{
-    background-color: rgb(158, 213, 197);
-}
-
-.infoadd{
-    background-color: rgb(188, 234, 213);
-} */
-
 body{
     background-color: rgb(188, 234, 213);
 }
 
+.contacto{
+    display: inline-block;
+    padding-bottom: 30px;
+}
 
+.bloques{
+    display: flex;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: larger;
+}
+
+.infoadd{
+    padding: 40px;
+}
+
+h6{
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.mapas{
+    font-size: large;
+}
+
+.mail{
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.telefono{
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+.horario{
+    padding-left: 40px;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 780px){
+    .bloques{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
 
 
 
