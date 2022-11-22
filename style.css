@@ -1,6 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/gang-wolfik-craze');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -49,7 +50,6 @@ main{
     display: flex;
     text-decoration: none;
     color: black;
-    text-transform: uppercase;
     font-size: 20px;
 
 }
@@ -124,9 +124,10 @@ nav a:hover{
 }
 
 h1{
-    font-size: 10vw;
+    font-size: 120px;
     padding: 100px;
     opacity: 75%;
+    font-family: 'Gang Wolfik Craze', sans-serif;
 }
 
 span{
@@ -176,6 +177,7 @@ h4{
     display: flex;
     flex-direction: column;
     background-color: rgb(158, 213, 197);
+    padding-bottom: 80px;
 }
 
 .contenedor-botones{
@@ -189,9 +191,9 @@ h4{
 	display: flex;
 	align-content: center;
 	justify-content: center;
-	padding: 20px;
+	padding: 10px;
 	margin: 100px;
-	width: 300px;
+	width: 200px;
 	border-radius: 8px;
 	color: black;
 	background-size: 300%;
@@ -249,11 +251,11 @@ h4{
 
 h2{
     padding: 10px;
-    text-transform: uppercase;
     text-decoration: underline;
-    /* border: 0.5px solid black; */
-    background-color: whitesmoke;
     border-radius: 3px 3px 3px 20px;
+    color: rgb(53, 66, 89);
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
 }
 
 h3{
@@ -261,6 +263,7 @@ h3{
     align-items: center;
     justify-content: center;
     padding: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 h5{
@@ -273,8 +276,10 @@ h5{
 .actividades{
     display: flex;
     height: 100%;
-    padding: 20px;
-    padding-left: 40px;
+    /* padding: 20px;
+    padding-left: 40px; */
+    align-content: center;
+    justify-content: center;
     
 }
 
@@ -333,8 +338,10 @@ body{
 }
 
 .contacto{
-    display: inline-block;
+    display: flex;
     padding-bottom: 30px;
+    align-content: center;
+    justify-content: center;
 }
 
 .bloques{
@@ -356,6 +363,7 @@ h6{
     text-align: left;
     font-size: larger;
     font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .mapas{
@@ -384,7 +392,6 @@ h6{
         gap: 10px;
     }
 }
-
 
 
 
